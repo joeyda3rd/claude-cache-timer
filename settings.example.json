@@ -1,0 +1,19 @@
+{
+  "statusLine": {
+    "type": "command",
+    "command": "/home/YOU/.claude/statusline/cache-timer.sh",
+    "refreshInterval": 1
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/YOU/.claude/hooks/cache-timestamp.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
