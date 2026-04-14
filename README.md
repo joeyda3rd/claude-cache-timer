@@ -6,6 +6,8 @@ The Anthropic prompt cache holds your conversation context for a bounded window 
 
 This repo wires up a simple countdown that ticks every second.
 
+Background and motivation: [anthropics/claude-code#5685](https://github.com/anthropics/claude-code/issues/5685).
+
 ## What you get
 
 A block in your statusline that looks like one of these:
